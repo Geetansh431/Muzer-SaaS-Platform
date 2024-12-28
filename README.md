@@ -1,6 +1,6 @@
 # Song Voting Queue
 
-This is a **Song Voting Queue** web application built with **Next.js**. Users can submit YouTube links to add videos to a collaborative queue, vote on them, and view the most popular videos in the playlist. The app allows for seamless video queue management and voting in a fun, interactive way.
+A web application for groups/offices to play music together. Users can vote for the next song to be played from a playlist, and the song with the most votes is played next. This app is ideal for use in college groups, offices, or social gatherings where music is always playing and everyone wants to have a say in the next song.
 
 ## Getting Started
 
