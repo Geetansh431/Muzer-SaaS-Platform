@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Song Voting Queue
+
+This is a **Song Voting Queue** web application built with **Next.js**. Users can submit YouTube links to add videos to a collaborative queue, vote on them, and view the most popular videos in the playlist. The app allows for seamless video queue management and voting in a fun, interactive way.
 
 ## Getting Started
 
@@ -14,23 +16,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **YouTube Link Submission**: Users can paste YouTube video links to add them to the playlist.
+- **Video Voting**: Each video in the queue has upvote and downvote buttons that affect the video’s rank in the queue.
+- **Now Playing**: Shows the currently playing video at the top of the app, automatically advancing to the next video when finished.
+- **Real-time Queue Updates**: The app updates the queue dynamically as votes are cast and videos are played.
+- **Shareable Links**: Users can copy the page URL to invite others and contribute to the voting process.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
+
+- **Next.js**: The React framework used for building the application.
+- **Tailwind CSS**: For styling the app with utility-first CSS.
+- **Axios**: To handle API requests for fetching and posting video data.
+- **Lucide Icons**: For icons such as thumbs up, thumbs down, and play.
+- **React Toastify**: For toast notifications on user actions.
+- **YouTube API**: (assumed) for video management and retrieving YouTube video data.
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive tutorial to get started with Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
